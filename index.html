@@ -29,12 +29,33 @@ https://templatemo.com/tm-557-grad-school
   </head>
 
 <body>
+  <!--Adcionado o plugin vlibras-->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 
+<!--Teste de estilização do Botão vlibras-->
+  <style>        
+   .access-button {
+      width: 40px!important;
+      height: 40px!important;
+      z-index: 1;
+      border-radius: 50px;
+      border: 8px solid #ffffff4f!important;
+  }
+  </style>
    
   <!--header-->
   <header class="main-header clearfix" role="header">
     <div class="logo">
-      <img src="/assets/images/kuruminha.png" alt="Logo" width=200 height=100>
+      <img src="/assets/images/kurumin-removebg-preview.png" alt="Logo" width=200 height=65>
       <a href="#"><em>kurumin</em> Dev</a>
     </div>
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
